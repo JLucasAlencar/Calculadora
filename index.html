@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <section>
+        <div id="val">  
+            
+        </div>
+        <div id="buttons">
+            <div id="L1">
+                <button id="CE" onclick="clean()">CE</button>
+                <button id="divid" onclick="insertOP('/')">÷</button>
+                <button id="multi" onclick="insertOP('*')">X</button>
+                <button id="subtr" onclick="insertOP('-')">-</button>
+            </div>
+            <div id="LT">
+                <div id="LL">
+                    <button id="N7" class="N" onclick="insert('7')">7</button>
+                    <button id="N4" class="N" onclick="insert('4')">4</button>
+                    <button id="N1" class="N" onclick="insert('1')">1</button>
+                    <button id="N0" class="N" onclick="insert('0')">0</button>
+                </div>
+                <div id="L3">
+                    <button id="N8" class="N" onclick="insert('8')">8</button>
+                    <button id="N5" class="N" onclick="insert('5')">5</button>
+                    <button id="N2" class="N" onclick="insert('2')">2</button>
+                    <button id="virgu" class="N" onclick="insertOP('.')">.</button>
+                </div>
+                <div id="L4">
+                    <button id="N9" class="N" onclick="insert('9')">9</button>
+                    <button id="N6" class="N" onclick="insert('6')">6</button>
+                    <button id="N3" class="N" onclick="insert('3')">3</button>
+                    <button id="raiz" class="N" onclick="back()">&#x21D0;</button>
+                </div>
+                <div id="L5">
+                    <button id="somar" onclick="insertOP('+')">+</button>
+                    <button id="igual" onclick="calcular()">=</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+
+    </script>
+</body>
+</html>
